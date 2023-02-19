@@ -12,6 +12,9 @@ import { socket } from "../client-socket.js";
 
 import { get, post } from "../utilities";
 
+import HomePage from "./pages/Home.js";
+import SpendingsPage from "./pages/Spendings.js";
+
 /**
  * Define the "App" component
  */
@@ -52,6 +55,17 @@ const App = () => {
             handleLogin={handleLogin}
             handleLogout={handleLogout}
             userId={userId}
+          />
+        }
+      />
+      <Route
+        path = "/homepage"
+        element = {
+          <HomePage 
+            path="/"
+            handleLogin = {handleLogin}
+            handleLogout = {handleLogout}
+            userId = {userId}
           />
         }
       />

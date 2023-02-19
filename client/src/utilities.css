@@ -88,3 +88,85 @@ form {
 .u-link:hover {
   color: var(--primary--dim);
 }
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+font-family: sans-serif;
+}
+
+body {
+text-align: center;
+background-color: #2D3A3A;
+}
+
+
+h2 {
+color: #C2EFB3;
+font-size: 30;
+font-weight: bold;
+font-family: sans-serif;
+text-decoration: underline;
+margin: 0px;
+margin-bottom: 20px;
+}
+
+h1 {
+color: #C2EFB3;
+font-size: 80;
+text-align: "center";
+font-weight: bold;
+font-family: sans-serif;
+margin: 0px;
+}
+
+p1 {
+color: #FFFFFF;
+font-size: 14;
+font-weight: 0;
+font-family: sans-serif;
+}
+
+Nav {
+Text-align: center;
+}
+
+Ul {
+List-style-type: none;
+Background-color: #C2EFB3;
+Overflow: hidden;
+Padding: 1em;
+Vertical-align: middle;
+Font-weight: bold;
+Letter-spacing: 0px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5%;
+  color: #2D3A3A;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#logo {
+width: 50%
+}
+
+#footer {
+Position: relative;
+Bottom: 0;
+Width: 100%;
+Background-color: #C2EFB3;
+Height: 200px;
+}
+
+#contact {
+margin-bottom: 50px
+}
